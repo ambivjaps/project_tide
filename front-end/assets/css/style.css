@@ -7,6 +7,11 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #131c2b !important;
+
+    background-image: 
+        linear-gradient(#232c3a 1px, transparent 1px), 
+        linear-gradient(90deg, #232c3a 1px, transparent 1px);
+    background-size: 50px 50px; /* Size of grid squares */
 }
 
 /* Navigation Bar */
