@@ -28,22 +28,55 @@ body {
 	font-weight: 600 !important;
     letter-spacing: 0.1em;
 	padding: 6px;
+	border-radius: 5px !important;
 }
 
 .tide-main-nav .nav-link.active, .tide-main-nav .nav-link.active:hover {
     background-color: #1a2941 !important;
 	color: #f5bb00 !important;
 	font-weight: 700 !important;
-
     border-bottom: 3px solid #72fffa;
-    border-radius: 5px !important;
+
 }
 
 .tide-main-nav .nav-link:hover {
 	color: #F5BB00 !important;
-
     border-bottom: 3px solid #72fffa;
-    border-radius: 5px !important;
+}
+
+/* Components */
+
+.tide-heading {
+	background-color: #2c5085;
+	border-radius: 5px;
+	border-bottom: 4px solid #72fffa;
+	padding: 10px 30px 5px 30px;
+	display: inline-block;
+}
+
+.tide-heading h3 {
+	font-weight: bold;
+}
+
+.tide-card {
+	background-color: #eeeeee !important;
+}
+
+.tide-symbol {
+	background-color: #2c5085;
+	color: #f5bb00;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    
+	border-radius: 5%;
+    border-bottom: 5px solid #72fffa;
+	
+	width: 2em;
+	height: 2em;
+	margin: 0 auto 0;
+	font-size: 4em;
 }
 
 /* Footer */
