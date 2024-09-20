@@ -14,6 +14,7 @@ body {
 .navbar {
 	background-color: #2c5085 !important;
 	z-index: 1000 !important;
+    padding: 10px !important;
 }
 
 .tide-main-nav .nav-link {
@@ -25,12 +26,19 @@ body {
 }
 
 .tide-main-nav .nav-link.active, .tide-main-nav .nav-link.active:hover {
+    background-color: #1a2941 !important;
 	color: #f5bb00 !important;
 	font-weight: 700 !important;
+
+    border-bottom: 3px solid #72fffa;
+    border-radius: 5px !important;
 }
 
 .tide-main-nav .nav-link:hover {
 	color: #F5BB00 !important;
+
+    border-bottom: 3px solid #72fffa;
+    border-radius: 5px !important;
 }
 
 /* Footer */
